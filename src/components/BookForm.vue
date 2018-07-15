@@ -11,7 +11,9 @@ export default {
   name: 'BookForm',
   props: ['books'],
   methods: {
+         bookSubmit(bookTitle, bookAuthor) {
 
+         }
   },
   data() {
     return {
