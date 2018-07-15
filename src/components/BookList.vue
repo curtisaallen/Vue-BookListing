@@ -19,4 +19,7 @@ export default {
 h1 {
     font-weight: normal;
 }
+h2 {
+    font-weight: normal;
+}
 </style>
