@@ -12,7 +12,7 @@ export default {
   props: ['books'],
   methods: {
          bookSubmit(bookTitle, bookAuthor) {
-
+             this.$emit('addBook', bookTitle, bookAuthor);
          }
   },
   data() {
